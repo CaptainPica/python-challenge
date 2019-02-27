@@ -20,7 +20,7 @@ with open('budget_data.csv', newline='') as csvfile:
     print(f'Total Months: {TotalMonths}\nTotal: ${TotalDollars}\nAverage Change: ${AvChange}')
     print(f'Greatest Increase in Profits: {BigDay} (${BigInc})')
     print(f'Greatest Decrease in Profits: {SmlDay} (${SmlDec})')
-    with open('output1.txt','w') as text:
+    with open('output.txt','w') as text:
         text.write('Financial Analysis\n----------------------------\n')
         text.write(f'Total Months: {TotalMonths}\nTotal: ${TotalDollars}\nAverage Change: ${AvChange}\n')
         text.write(f'Greatest Increase in Profits: {BigDay} (${BigInc})\n')
