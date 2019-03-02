@@ -8,4 +8,8 @@ with open('par.txt', 'r') as text:
     numberLetters = len(passage) - numberWords
     avgSentence = numberWords/numberSentences
     avgLetter = numberLetters/numberWords
-    print(avgLetter)
+    print("Paragraph Analysis\n-----------------")
+    print(f"Approximate Word Count: {numberWords}")
+    print(f"Approximate Sentence Count: {numberSentences}")
+    print(f"Approximate Letter Count: {avgLetter}")
+    print(f"Average Sentence Length: {avgSentence}")
